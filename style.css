@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(0, 0, 0); /* Define a cor de fundo do corpo da página como preto. */
+    color: white; /* Define a cor do texto como branco. */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes usada no texto como Arial, Helvetica ou sans-serif, nesta ordem de preferência. */
+    margin: 2%; /* Define uma margem de 2% em todos os lados do corpo da página. */
+    padding: 2%; /* Define um preenchimento de 2% em todos os lados do corpo da página. */
+}
+ul, a{
+    display: flex; /* Define que os elementos <ul> e <a> serão exibidos como elementos flexíveis. */
+    justify-content: space-between; /* Alinha os itens dentro dos elementos <ul> e <a> com espaço igual entre eles. */
+     
+    align-items: center; /* Alinha os itens dentro dos elementos <ul> e <a> verticalmente ao centro. */
+    text-decoration: none; /* Remove qualquer decoração de texto (como sublinhado) dos elementos <a>. */
+    color: white; /* Define a cor do texto dos elementos <a> como branco. */
+    list-style-type: none; /* Remove os marcadores de lista dos elementos <ul>. */
+    transition: 1.5s; /* Define uma transição de 1.5 segundos para qualquer mudança de estilo aplicável aos elementos <ul> e <a>. */
+}
+
+
+.teste{
+    display: block;
+    margin-right: auto;
+    margin-left: auto; /* Define uma margem à esquerda de 46.6% para os elementos com a classe 'teste'. */
+}
+
+.teste{
+    width: 150px; /* Define a largura dos elementos com a classe 'teste' como 150 pixels. */
+    height: 150px; /* Define a altura dos elementos com a classe 'teste' como 150 pixels. */
+}
+
+h1, h2{
+    color: red; /* Define a cor do texto dos elementos <h1> e <h2> como vermelho. */
+}
+
+.insta{
+    height: 150px; /* Define a altura dos elementos com a classe 'insta' como 150 pixels. */
+    width: 150px; /* Define a largura dos elementos com a classe 'insta' como 150 pixels. */
+}
+
+.instagramli{
+    font-size: 30px; /* Define o tamanho da fonte dos elementos com a classe 'instagramli' como 30 pixels. */
+    margin-right: 4700px; /* Define uma margem à direita de 4700 pixels para os elementos com a classe 'instagramli'. */
+    padding: 20px; /* Define um preenchimento de 20 pixels em todos os lados dos elementos com a classe 'instagramli'. */
+}
+
+ul li{
+    margin-bottom: 2px; /* Define uma margem inferior de 2 pixels para os elementos <li> dentro dos elementos <ul>. */
+    padding-bottom: 2px; /* Define um preenchimento inferior de 2 pixels para os elementos <li> dentro dos elementos <ul>. */
+}
+
+.mercado-livre{
+    width: 20%;
+    height: 30%;
+    margin-left: -35;
+}
+
+.tesla-projeto{
+    width: 20%;
+    height: 30%;
+    margin-left: -35;
+}
